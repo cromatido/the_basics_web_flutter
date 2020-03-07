@@ -21,9 +21,7 @@ class HomeView extends StatelessWidget {
                     CourseDetails(),
                     Expanded(
                       child: Center(
-                        child: Center(
-                          child: CallToAction('Join Course'),
-                        ),
+                        child: CallToAction('Join Course'),
                       ),
                     )
                   ],
